@@ -10,9 +10,9 @@ module OmniAuth
         :token_url     => 'https://api.givey.com/oauth/token'
       }
       #option :client_options, {
-      #  :site          => 'http://givey-api.dev',
-      #  :authorize_url => 'http://givey2.dev/authorize',
-      #  :token_url     => 'http://givey-api.dev/oauth/token'
+      #  :site          => 'http://127.0.0.1:8080',
+      #  :authorize_url => 'http://127.0.0.1:8081/authorize',
+      #  :token_url     => 'http://127.0.0.1:8080/oauth/token'
       #}
 
       uid { raw_info['id'] }
